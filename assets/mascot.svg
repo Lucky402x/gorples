@@ -1,0 +1,61 @@
+<svg viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gorples mascot">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c6cf0"/>
+      <stop offset="100%" stop-color="#4f3fc9"/>
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9ec4"/>
+      <stop offset="50%" stop-color="#ffd66b"/>
+      <stop offset="100%" stop-color="#7fe0e0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- body -->
+  <path d="M60 260 C40 190 70 120 150 100 C230 82 320 110 360 175 C395 232 380 300 320 335 C300 347 300 365 280 372 C260 379 250 360 235 366 C210 375 190 372 175 360 C150 375 110 368 95 340 C55 335 45 300 60 260 Z"
+        fill="url(#bodyGrad)" stroke="#161022" stroke-width="7"/>
+
+  <!-- belly patch -->
+  <path d="M120 250 C120 210 155 185 200 188 C245 191 270 220 265 258 C260 296 225 315 190 310 C150 305 122 288 120 250 Z"
+        fill="#a596ff" opacity="0.5"/>
+
+  <!-- left arm raised -->
+  <path d="M95 280 C70 265 55 235 65 205 C72 183 95 178 100 198 C104 214 98 240 108 262 C114 276 112 288 95 280 Z"
+        fill="url(#bodyGrad)" stroke="#161022" stroke-width="6"/>
+
+  <!-- right arm -->
+  <path d="M330 300 C355 290 372 270 368 250 C365 235 348 232 340 248 C332 264 320 275 312 285 C305 295 314 306 330 300 Z"
+        fill="url(#bodyGrad)" stroke="#161022" stroke-width="6"/>
+
+  <!-- ear -->
+  <ellipse cx="330" cy="120" rx="26" ry="34" fill="url(#bodyGrad)" stroke="#161022" stroke-width="6"/>
+  <ellipse cx="330" cy="120" rx="12" ry="18" fill="#2d2450"/>
+
+  <!-- snout -->
+  <ellipse cx="230" cy="215" rx="95" ry="70" fill="#8f81f5" stroke="#161022" stroke-width="7"/>
+
+  <!-- eyes -->
+  <circle cx="185" cy="175" r="26" fill="#fff" stroke="#161022" stroke-width="6"/>
+  <circle cx="192" cy="180" r="9" fill="#161022"/>
+  <circle cx="270" cy="180" r="20" fill="#fff" stroke="#161022" stroke-width="6"/>
+  <circle cx="276" cy="184" r="7" fill="#161022"/>
+
+  <!-- nose -->
+  <ellipse cx="220" cy="230" rx="34" ry="22" fill="#5c4bd6" stroke="#161022" stroke-width="6"/>
+  <circle cx="210" cy="228" r="4" fill="#161022"/>
+  <circle cx="230" cy="228" r="4" fill="#161022"/>
+
+  <!-- mouth with teeth -->
+  <path d="M160 245 C185 275 260 278 290 248 C285 268 250 292 220 292 C188 292 165 268 160 245 Z"
+        fill="#2d2450" stroke="#161022" stroke-width="6"/>
+  <path d="M182 252 L192 264 L200 250 Z" fill="#fff"/>
+  <path d="M205 256 L213 270 L221 254 Z" fill="#fff"/>
+  <path d="M228 256 L236 270 L244 254 Z" fill="#fff"/>
+
+  <!-- cap -->
+  <path d="M120 130 C150 85 260 78 305 118 C320 131 322 150 305 152 C260 158 165 158 128 150 C112 147 110 140 120 130 Z"
+        fill="url(#capGrad)" stroke="#161022" stroke-width="7"/>
+  <path d="M118 148 C150 158 260 158 306 150 C320 148 330 156 322 166 C280 178 155 178 112 165 C102 160 106 150 118 148 Z"
+        fill="url(#capGrad)" stroke="#161022" stroke-width="7"/>
+  <circle cx="215" cy="98" r="10" fill="#fff" stroke="#161022" stroke-width="5"/>
+</svg>
