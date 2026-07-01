@@ -338,6 +338,7 @@ body {
 
 .step h3 { margin: 6px 0; color: var(--ink); }
 .step p { color: #47507a; line-height: 1.6; margin: 0; }
+.step p a { color: var(--blue-mid); font-weight: 700; }
 
 /* community */
 .community { text-align: center; }
